@@ -7,7 +7,7 @@ This project displays a set of overlapping images that highlight the center imag
 
 ## Live Demo
 
-[https://css-anime-carousel.vercel.app/](https://bouncing-image-xi.vercel.app/)
+[[https://css-anime-carousel.vercel.app/](https://bouncing-image-xi.vercel.app/)](https://overlapping-images.vercel.app/)
 
 ## Features
 
