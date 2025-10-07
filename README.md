@@ -1,12 +1,77 @@
-# React + Vite
+<img width="1464" height="760" alt="428shots_so" src="https://github.com/user-attachments/assets/f3592a53-a3f2-40a5-8b56-95505836ffe2" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Overlapping images
 
-Currently, two official plugins are available:
+A responsive and interactive image composition built with React, Vite, and CSS.
+This project displays a set of overlapping images that highlight the center image and apply blur and grayscale effects to others when hovered.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## Expanding the ESLint configuration
+[https://css-anime-carousel.vercel.app/](https://bouncing-image-xi.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Layered images arranged horizontally with scaling and opacity variations
+- Hover effect that applies `blur and grayscale to non-hovered images`
+- Smooth transitions using CSS transition and transform
+- Built with pure CSS, no animation libraries or JavaScript logic
+
+
+## Tech Stack
+
+- **React**
+- **JavaScript**
+- **CSS**
+
+## Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+    git clone https://github.com/tu-usuario/overlapping-images
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd overlapping-images
+   
+3. **Install dependencies:**
+
+   ```bash
+    npm install
+
+4. **Start the development server:**
+
+   ```bash
+    npm run dev
+
+## Folder Structure
+
+```
+
+├── public/
+│   ├── background-img.jpg
+│   ├── ramen-img.png
+├── src/
+│   ├── OverlappingImages.jsx
+│   ├── OverlappingImages.css
+│   ├── main.jsx
+│   └── index.css
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+└── vite.config.js
+
+
+```
+
+## Credits
+
+- Images from [Freepik](https://www.freepik.com/)
+
+## License
+
+This project is open-source and free to use for educational or personal purposes. Fork, clone, and customize freely.
